@@ -68,15 +68,23 @@
             android:layout_marginTop="30dp"/>
 
 
-
         <android.widget.Button
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_login"
-            android:text="Login"
+            android:layout_marginTop="40dp"
             android:background="@drawable/btn_bg"
-            android:textColor="#fff"
-            android:layout_marginTop="40dp"/>
+            android:text="Login"
+            android:textColor="#fff" />
+
+        <android.widget.Button
+            android:id="@+id/btn_Send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:text="Send"
+            android:textColor="#fff" />
 
     </LinearLayout>
 
