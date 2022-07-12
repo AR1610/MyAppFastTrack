@@ -6,8 +6,15 @@
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/drawable/btn_bg.xml" value="0.2703125" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/drawable/edt_bg.xml" value="0.2703125" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2703125" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_alert_dialog.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_date_time.xml" value="0.23854166666666668" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_home.xml" value="0.23854166666666668" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_image_pick.xml" value="0.19427083333333334" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_spinner.xml" value="0.23854166666666668" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_splash.xml" value="0.22552083333333334" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/raw_dialog.xml" value="0.23854166666666668" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/raw_toast.xml" value="0.253125" />
       </map>
     </option>
   </component>

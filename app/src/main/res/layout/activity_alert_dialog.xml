@@ -4,28 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ImagePickActivity"
+    tools:context=".AlertDialogActivity"
     android:orientation="vertical"
     android:padding="30dp">
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:id="@+id/img_dp"
-        android:layout_gravity="center"
-        android:src="@drawable/netflix"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_gallery"
-        android:text="Gallery"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_camera"
-        android:text="Camera"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"/>
+        android:id="@+id/btn_Dialog"
+        android:text="Alert Dialog"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Custm_Dialog"
+        android:layout_marginTop="30dp"
+        android:text="Custom Dialog"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Custm_toast"
+        android:layout_marginTop="30dp"
+        android:text="Custom Toast"/>
+
+
 </LinearLayout>
