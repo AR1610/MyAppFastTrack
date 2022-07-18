@@ -27,6 +27,25 @@ String strLang[] = {"Select Data","Android","Java",".net","PHP","C","C++","IOS",
         spinner = findViewById(R.id.spinner);
         ArrayAdapter<String> arrayAdapter = new
                 ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,strLang){
+
+                    @NonNull
+                    @Override
+                    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+
+
+                        TextView tvdata = (TextView)  super.getDropDownView(position, convertView, parent);
+
+                        if (position == 0){
+                            tvdata.setTextColor(Color.GRAY);
+                        }else {
+                            tvdata.setTextColor(Color.BLUE);
+
+                        }
+
+                        return tvdata;
+
+                    }
+
                     @Override
                     public View getDropDownView(int position, @Nullable View convertView,
                                                 @NonNull ViewGroup parent) {
