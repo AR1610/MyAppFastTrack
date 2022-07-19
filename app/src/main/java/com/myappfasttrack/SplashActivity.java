@@ -20,7 +20,7 @@ GifImageView gifImageView;
             @Override
             public void run() {
 
-                Intent i = new Intent(SplashActivity.this,WebviewActivity.class);
+                Intent i = new Intent(SplashActivity.this,CustomListViewActivity.class);
                 startActivity(i);
                 finish();
             }
