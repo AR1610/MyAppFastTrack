@@ -8,15 +8,19 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.myappfasttrack.model.LangModel;
+
 import java.util.ArrayList;
 
-public class MyBaseAdapter extends BaseAdapter {
+public class MyGridAdapter extends BaseAdapter {
+
     Context context;
     ArrayList<LangModel> langModelArrayList;
-    public MyBaseAdapter(Context context, ArrayList<LangModel> langModelArrayList) {
-       this.context = context;
-       this.langModelArrayList = langModelArrayList;
 
+    public MyGridAdapter(Context context, ArrayList<LangModel> langModelArrayList) {
+
+        this.context = context;
+        this.langModelArrayList = langModelArrayList;
     }
 
     @Override
@@ -36,14 +40,13 @@ public class MyBaseAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
-        view = layoutInflater.inflate(R.layout.raw_cutm_list,null);
+        view = layoutInflater.inflate(R.layout.raw_cutm_grid,null);
         ImageView imgData = view.findViewById(R.id.img_data);
         TextView tvData = view.findViewById(R.id.tv_data);
         imgData.setImageResource(langModelArrayList.get(i).getImgLang());
         tvData.setText(langModelArrayList.get(i).getStrLang());
+
 
         return view;
     }

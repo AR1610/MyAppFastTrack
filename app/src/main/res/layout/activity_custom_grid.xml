@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.CustomListViewActivity"
-    android:orientation="vertical"
+    tools:context=".CustomGridActivity"
     android:padding="20dp">
 
-    <ListView
+    <GridView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/list_view"
-        android:dividerHeight="20dp"
-        android:divider="@android:color/transparent"/>
+        android:id="@+id/grid_view"
+        android:numColumns="auto_fit"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="20dp"/>
 
 </LinearLayout>

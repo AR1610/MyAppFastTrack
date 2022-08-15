@@ -6,22 +6,31 @@
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/drawable/btn_bg.xml" value="0.2703125" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/drawable/edt_bg.xml" value="0.2703125" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2703125" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/a_fragment.xml" value="0.2375" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_alert_dialog.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_custom_grid.xml" value="0.23854166666666668" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_custom_list_view.xml" value="0.23854166666666668" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_date_time.xml" value="0.23854166666666668" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_fragment_load_xml.xml" value="0.23854166666666668" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_grid_view.xml" value="0.23854166666666668" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_home.xml" value="0.23854166666666668" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_image_pick.xml" value="0.19427083333333334" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_menu.xml" value="0.23854166666666668" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_simple_listview.xml" value="0.23645833333333333" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_spinner.xml" value="0.23854166666666668" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_splash.xml" value="0.22552083333333334" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_tab_with_view_pager.xml" value="0.23854166666666668" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/activity_webview.xml" value="0.23854166666666668" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/fragment_b.xml" value="0.23854166666666668" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/fragment_new_tab.xml" value="0.20677083333333332" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/raw.xml" value="0.2375" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/raw_cutm_grid.xml" value="0.23854166666666668" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/raw_cutm_list.xml" value="0.2375" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/raw_dialog.xml" value="0.23854166666666668" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/raw_list.xml" value="0.23854166666666668" />
         <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/layout/raw_toast.xml" value="0.253125" />
+        <entry key="..\:/Android/MyAppFastTrack/app/src/main/res/menu/item_menu.xml" value="0.2375" />
       </map>
     </option>
   </component>

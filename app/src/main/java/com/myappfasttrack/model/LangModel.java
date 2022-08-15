@@ -1,4 +1,4 @@
-package com.myappfasttrack;
+package com.myappfasttrack.model;
 
 public class LangModel {
     String strLang;

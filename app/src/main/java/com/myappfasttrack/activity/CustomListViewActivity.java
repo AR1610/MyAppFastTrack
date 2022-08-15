@@ -1,9 +1,13 @@
-package com.myappfasttrack;
+package com.myappfasttrack.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ListView;
+
+import com.myappfasttrack.model.LangModel;
+import com.myappfasttrack.adapter.MyBaseAdapter;
+import com.myappfasttrack.R;
 
 import java.util.ArrayList;
 
