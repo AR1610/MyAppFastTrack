@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppFastTrack">
         <activity
+            android:name=".activity.BottomNavActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.TabWithViewPagerActivity"
             android:exported="false" />
         <activity

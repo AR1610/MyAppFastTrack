@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.myappfasttrack.activity.BottomNavActivity;
 import com.myappfasttrack.activity.CustomListViewActivity;
 import com.myappfasttrack.activity.MenuActivity;
 import com.myappfasttrack.activity.NewTabActivity;
@@ -25,7 +26,7 @@ GifImageView gifImageView;
             @Override
             public void run() {
 
-                Intent i = new Intent(SplashActivity.this, TabWithViewPagerActivity.class);
+                Intent i = new Intent(SplashActivity.this, BottomNavActivity.class);
                 startActivity(i);
                 finish();
             }
