@@ -26,7 +26,7 @@ GifImageView gifImageView;
             @Override
             public void run() {
 
-                Intent i = new Intent(SplashActivity.this, BottomNavActivity.class);
+                Intent i = new Intent(SplashActivity.this, AlarmActivity.class);
                 startActivity(i);
                 finish();
             }

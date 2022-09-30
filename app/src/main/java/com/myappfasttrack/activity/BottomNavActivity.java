@@ -3,12 +3,15 @@ package com.myappfasttrack.activity;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.myappfasttrack.A_Fragment;
+import com.myappfasttrack.B_Fragment;
 import com.myappfasttrack.R;
 
 public class BottomNavActivity extends AppCompatActivity {
@@ -28,11 +31,22 @@ public class BottomNavActivity extends AppCompatActivity {
                 int id  = item.getItemId();
                 if (id == R.id.item_add){
                     Toast.makeText(BottomNavActivity.this, "Add", Toast.LENGTH_SHORT).show();
+
+                    A_Fragment aFragment = new A_Fragment();
+                    FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+                    fragmentTransaction.add(R.id.frame,aFragment);
+                    fragmentTransaction.commit();
                     toolbar.setTitle("Add");
                 }
                 else if (id == R.id.item_settings){
-                    Toast.makeText(BottomNavActivity.this, "Add", Toast.LENGTH_SHORT).show();
-                    toolbar.setTitle("Setting");
+                    Toast.makeText(BottomNavActivity.this, "Settings", Toast.LENGTH_SHORT).show();
+                    toolbar.setTitle("Settings");
+
+                    B_Fragment bFragment = new B_Fragment();
+                    FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+                    fragmentTransaction.add(R.id.frame,bFragment);
+                    fragmentTransaction.commit();
+
                 }
                 return true;
             }
